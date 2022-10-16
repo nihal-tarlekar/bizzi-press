@@ -234,7 +234,8 @@
 .about-page-caption h4,
 .our-process-caption h4,
 .team-members-caption h4,
-.contact-us-caption h4 {
+.contact-us-caption h4,
+.loan-details h4 {
     font-family: 'gilroyultralight';
     font-size: 18px;
 }
@@ -244,7 +245,9 @@
 .our-process-caption h3,
 .team-members-caption h3,
 #accordion h3,
-.contact-us-caption h3 {
+.contact-us-caption h3,
+.services-navigation h3,
+.loan-details h3 {
     font-family: 'gilroybold';
     font-size: 46px;
 }

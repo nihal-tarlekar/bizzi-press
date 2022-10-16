@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.btn-service {
+    position: relative;
+    font-family: 'gilroysemibold';
+    border: 0px;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 15px 20px;
+    margin-bottom: 2%;
+    color: #00154F;
+    text-align: left;
+    width: 100%;
+}
+
+.btn-service:hover {
+    background-color: #a80000;
+    color: #fff;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #a80000;
+    color: #fff;
+}
+
+.rgt-arrow {
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+}
+
+.services-navigation h3 {
+    margin-bottom: 10%;
+}
+
+.service {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.services-navigation {
+    background-color: #FAFAFA;
+    padding: 10%;
+
+}
+
+.loan-details {
+    padding-left: 15%;
+}
+
+.loan-details p {
+    font-family: 'gilroymedium';
+    font-size: 18px;
+    color: rgb(45, 45, 45);
+}
+
+.title {
+    font-family: 'gilroybold';
+    font-size: 24px;
+    color: rgb(45, 45, 45);
+}
+
+.loan-details li,
+.imp-notes li {
+    font-family: 'gilroyregular';
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+    line-height: 35px;
+}
+
+.loan-details li {
+    margin-left: 3%;
+}
+
+.imp-notes {
+    background-image: url("../images/homepage/about-bg-pattern.png");
+    background-repeat: repeat;
+    background-size: auto;
+    padding-bottom: 5%;
+}
+
+.imp-notes h4 {
+    font-family: 'gilroybold';
+    font-size: 28px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.imp-notes h5 {
+    font-family: 'gilroybold';
+    font-size: 22px;
+    padding-top: 10%;
+}
