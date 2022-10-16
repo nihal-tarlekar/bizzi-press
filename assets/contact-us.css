@@ -1,0 +1,58 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.img-red-icon {
+    width: 50%;
+}
+
+.red-icon {
+    width: 30%;
+}
+
+.info {
+    width: 70%
+}
+
+.info h5 {
+    font-family: 'gilroybold';
+    font-size: 28px;
+}
+
+.info p,
+.info p a {
+    font-family: 'gilroylight';
+    font-size: 16px;
+    color: rgb(58, 58, 58);
+}
+
+.info p a:hover {
+    text-decoration: none;
+}
+
+.contact-details-1 {
+    border: 1px solid rgb(230, 227, 227);
+    padding-top: 7%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.quick-connect {
+    border: 0px;
+    padding: 0;
+}
+
+.form-control {
+    margin-bottom: 4%;
+}
+
+.contact-form {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

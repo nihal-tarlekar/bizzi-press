@@ -1,0 +1,524 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    text-align: left;
+    right: 0%;
+    bottom: 26%;
+    left: 15%;
+    z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carousel-caption h2 {
+    font-family: 'gilroymedium';
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.carousel-caption h3 {
+    font-family: 'gilroybold';
+    font-size: 84px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-family: 'gilroyregular';
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.btn-our-service {
+    background-color: #ce1b28;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 10px 50px;
+    color: #fff;
+    border: solid 2px #ce1b28;
+}
+
+.btn-our-service:hover {
+    background: #1f1f1f;
+    color: #fff;
+    transition: ease 0.2s;
+    border: solid 2px #1f1f1f;
+    cursor: pointer;
+}
+
+.btn-contact-us {
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 12px 50px;
+    color: #fff;
+    border: solid 2px #fff;
+    margin-left: 2%;
+}
+
+.btn-contact-us:hover {
+    background: #1f1f1f;
+    color: #fff;
+    transition: ease 0.2s;
+    border: solid 2px #1f1f1f;
+    cursor: pointer;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(images/homepage/left-arrow.png) !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #000;
+    padding: 15px;
+    background-size: 100% 100%;
+}
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+    background: #ce1b28 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 8%;
+}
+
+.carousel {
+    position: relative
+}
+
+.top-nav {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tap-info {
+    display: flex;
+    color: #fff;
+    font-family: 'gilroylight';
+}
+
+.tap-info p {
+    width: auto;
+    font-family: 'gilroylight';
+    font-size: 16px;
+    margin-right: 2%;
+    padding-left: 2%;
+    color: #fff;
+}
+
+.tap-info p a {
+    color: #fff;
+}
+
+.tap-info p a:hover {
+    text-decoration: none;
+}
+
+.img-call {
+    width: 23px;
+    height: 20px;
+    padding-right: 2%;
+}
+
+.img-social {
+    width: 18px;
+    height: 18px;
+}
+
+.social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media li {
+    list-style: none;
+}
+
+.social-media li a {
+    margin-left: 5%;
+}
+
+.navigation {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #a80000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'gilroybold';
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 2.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffbc00;
+}
+
+.about-caption,
+.services,
+.about-page-caption,
+.team-members-caption,
+.contact-us-caption {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.about-caption h2 {
+    font-family: 'gilroybold';
+    font-size: 46px;
+    padding-bottom: 3%;
+}
+
+.about-caption p,
+.about-page-caption p {
+    font-family: 'gilroyregular';
+    font-size: 18px;
+}
+
+.btn-about {
+    font-family: 'gilroymedium';
+    border: 0px;
+    background-color: #ce1b28;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 3%;
+}
+
+.btn-about:hover {
+    background: #1f1f1f;
+    color: #fff;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.services-info {
+    margin-top: 5%;
+    padding: 5px;
+}
+
+.services-info-details {
+    margin-bottom: 20%;
+}
+
+.services h4,
+.about-page-caption h4,
+.our-process-caption h4,
+.team-members-caption h4,
+.contact-us-caption h4 {
+    font-family: 'gilroyultralight';
+    font-size: 18px;
+}
+
+.services h2,
+.about-page-caption h2,
+.our-process-caption h3,
+.team-members-caption h3,
+#accordion h3,
+.contact-us-caption h3 {
+    font-family: 'gilroybold';
+    font-size: 46px;
+}
+
+.about-page-caption .service-line {
+    margin-bottom: 3%;
+}
+
+.about-page-caption {
+    margin-bottom: 5%;
+}
+
+.service-line {
+    border-bottom: 2px solid #a80000;
+    width: 8%;
+    margin: auto;
+    justify-content: center;
+}
+
+.img-services {
+    width: 100%;
+}
+
+.services-info-details h3 {
+    font-family: 'gilroybold';
+    font-size: 26px;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.services-info-details p {
+    font-family: 'gilroyregular';
+    font-size: 16px;
+    text-align: left;
+}
+
+.services-info-details p a {
+    color: #a80000 !important;
+}
+
+.btn-read-more {
+    font-family: 'gilroymedium';
+    background: none;
+    font-size: 16px;
+    border: 0px;
+    color: #a80000;
+    margin-top: 2%;
+}
+
+.btn-read-more:hover {
+    color: #1f1f1f;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.btn-popup {
+    font-family: 'gilroymedium';
+    color: #fff;
+    background-color: #a80000;
+    border: 0px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.btn-popup:hover {
+    background: #1f1f1f;
+    color: #fff;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.lightbox {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1110 !important;
+    margin-top: 0% !important;
+    margin-left: 0% !important;
+    background-color: rgb(0 0 0 / 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.lightbox-body {
+    width: 45%;
+    margin: 3% auto;
+}
+
+.lightbox .close {
+    position: absolute;
+    z-index: 101;
+    right: 2%;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    top: 2%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.quick-connect {
+    border: 1px solid #707070;
+    padding: 5%;
+}
+
+.quick-connect h3 {
+    padding-left: 1.5%
+}
+
+.quick-connect p {
+    font-family: 'gilroyregular';
+    font-size: 16px;
+    padding-left: 2.2%;
+    color: #000000;
+    padding-right: 1%;
+}
+
+.form-control {
+    padding: 2% 2%;
+    font-size: 1rem;
+    border-radius: 0%;
+}
+
+.form-control-1 {
+    padding: 4% 4%;
+}
+
+.form-row {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 1rem;
+}
+
+.btn-smt {
+    font-family: 'gilroybold';
+    color: #fff;
+    font-size: 16px;
+    background-color: #B21E39;
+    border: 0px #B21E39;
+    box-shadow: 0px 0px 0px #B21E39;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.submit-btn {
+    text-align: right;
+    margin-top: 3%;
+}
+
+/* lightbox contact */
+.lightbox-body .quick-connect {
+    background-color: #fff;
+}
+
+.contact-lightbox {
+    width: 60%;
+}
+
+.contact-lightbox .quick-connect h3 {
+    font-size: 40px;
+}
+
+.contact-lightbox .quick-connect p {
+    font-size: 14px;
+}
+
+.contact-lightbox .form-control {
+    padding: 1% 1%;
+    font-size: 0.9rem;
+}
+
+.contact-lightbox .form-control-1 {
+    padding: 2% 2%;
+}
+
+.footer {
+    background-image: url("../images/homepage/footer-bg.png");
+    background-size: cover;
+    background-position: 100%;
+    color: #8c93a5;
+    position: relative;
+    padding: 120px 0 20px;
+}
+
+.img-footer-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    padding: 25%;
+}
+
+.footer-social li {
+    list-style: none;
+    margin-left: 5%;
+}
+
+.footer-social ul {
+    display: flex;
+}
+
+.img-footer-logo {
+    width: 60%;
+}
+
+.footer-caption p {
+    font-family: 'gilroymedium';
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.useful-links h3,
+.subscribe h2 {
+    font-family: 'gilroybold';
+    font-size: 32px;
+    color: #fff;
+}
+
+.links {
+    display: flex;
+    padding-top: 5%;
+}
+
+.links li {
+    list-style: none;
+    line-height: 40px;
+}
+
+.links-1 {
+    padding-left: 15%;
+}
+
+.links li a {
+    color: #fff;
+    font-family: 'gilroysemibold';
+}
+
+.links li a:hover {
+    text-decoration: none;
+    color: #a80000;
+    transition: ease 0.3s;
+}
+
+.img-send {
+    width: 30px;
+    height: 30px;
+}
+
+.subscribe .form-group {
+    display: flex;
+    margin-top: 5%;
+}
+
+.subscribe .form-control {
+    border: 0px;
+    margin-bottom: 0;
+}
+
+.btn-subscribe {
+    border: 1px solid #a80000;
+    background-color: #a80000;
+    padding: 10px;
+}
+
+.btn-subscribe:hover {
+    cursor: pointer;
+}
