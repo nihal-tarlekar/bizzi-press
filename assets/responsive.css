@@ -1,0 +1,841 @@
+@media (max-width: 2560px) {
+    .carousel-caption {
+        left: 30%;
+        bottom: 35%;
+    }
+}
+
+@media (max-width: 1920px) {
+    .carousel-caption {
+        left: 23%;
+        bottom: 30%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .carousel-caption {
+        left: 16%;
+        bottom: 22%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .carousel-caption {
+        left: 12%;
+        bottom: 22%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .carousel-caption {
+        left: 10%;
+        bottom: 18%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .carousel-caption {
+        left: 7%;
+        bottom: 18%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 26px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 60px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
+
+    .btn-our-service,
+    .btn-contact-us,
+    .btn-about,
+    .btn-popup,
+    .btn-read-more,
+    .btn-service {
+        font-size: 16px;
+    }
+
+    .about-caption h2 {
+        font-size: 44px;
+    }
+
+    .about-caption p,
+    .about-page-caption p {
+        font-size: 16px;
+    }
+
+    .services h4,
+    .about-page-caption h4,
+    .our-process-caption h4,
+    .team-members-caption h4,
+    .contact-us-caption h4,
+    .loan-details h4 {
+        font-size: 16px;
+    }
+
+    .services h2,
+    .about-page-caption h2,
+    .our-process-caption h3,
+    .team-members-caption h3,
+    #accordion h3,
+    .contact-us-caption h3,
+    .services-navigation h3,
+    .loan-details h3 {
+        font-size: 36px;
+    }
+
+    .services-info-details h3 {
+        font-size: 24px;
+    }
+
+    .services-info-details p {
+        font-size: 14px;
+    }
+
+    .our-process-caption li,
+    .team-member-pic p,
+    .team-member-info p {
+        font-size: 16px;
+    }
+
+    .team-member-pic h3 {
+        font-size: 26px;
+    }
+
+    .btn-link {
+        font-size: 16px;
+    }
+
+    .loan-details p {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .loan-details li,
+    .imp-notes li {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .imp-notes h4 {
+        font-size: 26px;
+    }
+
+    .imp-notes h5 {
+        font-size: 20px;
+    }
+
+    .info h5 {
+        font-size: 26px;
+    }
+
+    .info p,
+    .info p a {
+        font-size: 13px;
+    }
+
+    .useful-links h3,
+    .subscribe h2 {
+        font-size: 28px;
+    }
+
+    .footer-caption p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .links li {
+        font-size: 16px;
+        line-height: 34px;
+    }
+
+    .subscribe .form-control {
+        line-height: 1;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .w-100 {
+        min-height: 900px;
+        background-position: 100% 100%;
+        background-size: cover;
+    }
+
+    .carousel-caption {
+        text-align: center;
+    }
+
+    .carousel-caption {
+        left: 0%;
+        bottom: 30%;
+    }
+
+    .tap-info p {
+        font-size: 12px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../images/homepage/menu-icon.png");
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.5rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 0px solid transparent;
+        border-radius: 0rem;
+    }
+
+    .btn-our-service,
+    .btn-contact-us,
+    .btn-about,
+    .btn-popup,
+    .btn-read-more,
+    .btn-service {
+        font-size: 12px;
+    }
+
+    .contact-lightbox .quick-connect h3 {
+        font-size: 30px;
+    }
+
+    .contact-lightbox .quick-connect p {
+        font-size: 12px;
+    }
+
+    .loan-details {
+        padding-left: 0%;
+        padding-top: 10%;
+    }
+
+    .services-navigation {
+        padding: 5%;
+    }
+
+    .img-footer-icon {
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        padding: 25%;
+    }
+
+    .footer-social li {
+        list-style: none;
+        margin-left: 2%;
+    }
+
+    .links li {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .useful-links h3,
+    .subscribe h2 {
+        font-size: 26px;
+    }
+}
+
+@media(max-with: 720px) {}
+
+@media (max-width: 480px) {
+    .w-100 {
+        min-height: auto;
+    }
+
+    .btn-our-service,
+    .btn-contact-us {
+        padding: 10px 30px;
+        margin-top: 5%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 14%;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+    }
+
+    .tap-info {
+        display: none;
+    }
+
+    .carousel-caption h2 {
+        font-size: 22px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 52px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .carousel-caption {
+        left: 0%;
+        bottom: 15%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+
+    .btn-our-service,
+    .btn-contact-us,
+    .btn-about,
+    .btn-popup,
+    .btn-read-more,
+    .btn-service {
+        font-size: 18px;
+    }
+
+    .about-caption h2 {
+        font-size: 40px;
+    }
+
+    .about-caption p,
+    .about-page-caption p {
+        font-size: 18px;
+    }
+
+    .services h4,
+    .about-page-caption h4,
+    .our-process-caption h4,
+    .team-members-caption h4,
+    .contact-us-caption h4,
+    .loan-details h4 {
+        font-size: 18px;
+    }
+
+    .services h2,
+    .about-page-caption h2,
+    .our-process-caption h3,
+    .team-members-caption h3,
+    #accordion h3,
+    .contact-us-caption h3,
+    .services-navigation h3,
+    .loan-details h3 {
+        font-size: 40px;
+    }
+
+    .service-line {
+        width: 15%;
+    }
+
+    .services-info-details h3 {
+        font-size: 30px;
+    }
+
+    .services-info-details p {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 50px 0 20px;
+    }
+
+    .footer-caption p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .img-footer-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .useful-links h3,
+    .subscribe h2 {
+        font-size: 24px;
+        padding-top: 5%;
+    }
+
+    .links-1 {
+        display: none;
+    }
+
+    .links li {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .contact-lightbox {
+        width: 90%;
+    }
+
+    .lightbox-body {
+        margin: 25% auto;
+    }
+
+    .contact-lightbox .quick-connect h3 {
+        font-size: 26px;
+    }
+
+    .img-footer-logo {
+        width: 50%;
+    }
+
+    .our-process-caption ul {
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .plan-image {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .our-process-caption li,
+    .team-member-pic p,
+    .team-member-info p {
+        font-size: 18px;
+    }
+
+    .btn-link {
+        font-size: 20px;
+    }
+
+    .card-body {
+        font-size: 18px;
+    }
+
+    .loan-details {
+        padding-left: 3%;
+        padding-top: 10%;
+    }
+
+    .imp-notes {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .contact-details-1 {
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .img-red-icon {
+        width: 45%;
+    }
+
+    .info h5 {
+        font-size: 28px;
+    }
+
+    .info p,
+    .info p a {
+        font-size: 18px;
+    }
+
+    .contact-form .quick-connect {
+        margin-bottom: 5%;
+    }
+
+    .contact-details {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+@media (max-width: 414px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 48px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+    }
+
+    .btn-our-service,
+    .btn-contact-us,
+    .btn-about,
+    .btn-popup,
+    .btn-read-more,
+    .btn-service {
+        font-size: 16px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .about-caption h2 {
+        font-size: 36px;
+    }
+
+    .about-caption p,
+    .about-page-caption p {
+        font-size: 16px;
+    }
+
+    .about-caption,
+    .services,
+    .about-page-caption,
+    .team-members-caption,
+    .contact-us-caption {
+        padding-top: 10%;
+    }
+
+    .services h4,
+    .about-page-caption h4,
+    .our-process-caption h4,
+    .team-members-caption h4,
+    .contact-us-caption h4,
+    .loan-details h4 {
+        font-size: 16px;
+    }
+
+    .services h2,
+    .about-page-caption h2,
+    .our-process-caption h3,
+    .team-members-caption h3,
+    #accordion h3,
+    .contact-us-caption h3,
+    .services-navigation h3,
+    .loan-details h3 {
+        font-size: 36px;
+    }
+
+    .services-info-details h3 {
+        font-size: 28px;
+    }
+
+    .services-info-details p {
+        font-size: 16px;
+    }
+
+    .team-member-pic h3 {
+        font-size: 24px;
+    }
+
+    .our-process-caption li,
+    .team-member-pic p,
+    .team-member-info p {
+        font-size: 16px;
+    }
+
+    .btn-link {
+        font-size: 18px;
+    }
+
+    .card-body {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 412px) {}
+
+@media(max-width: 384px) {
+    .img-logo {
+        width: 75%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 18px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 44px;
+    }
+
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .btn-our-service,
+    .btn-contact-us {
+        padding: 5px 30px;
+        margin-top: 5%;
+    }
+
+    .about-caption h2 {
+        font-size: 34px;
+    }
+
+    .services h2,
+    .about-page-caption h2,
+    .our-process-caption h3,
+    .team-members-caption h3,
+    #accordion h3,
+    .contact-us-caption h3,
+    .services-navigation h3,
+    .loan-details h3 {
+        font-size: 34px;
+    }
+
+    .services-info-details h3 {
+        font-size: 26px;
+    }
+
+    .contact-lightbox .quick-connect h3 {
+        font-size: 22px;
+    }
+
+    .info h5 {
+        font-size: 24px;
+    }
+
+    .info p,
+    .info p a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 360px) {
+    .footer-caption p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .img-footer-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .useful-links h3,
+    .subscribe h2 {
+        font-size: 22px;
+        padding-top: 5%;
+    }
+
+    .links li {
+        font-size: 16px;
+        line-height: 34px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 40px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .btn-our-service,
+    .btn-contact-us,
+    .btn-about,
+    .btn-popup,
+    .btn-read-more,
+    .btn-service {
+        font-size: 15px;
+    }
+
+    .about-caption h2 {
+        font-size: 32px;
+    }
+
+    .about-caption p,
+    .about-page-caption p {
+        font-size: 14px;
+    }
+
+    .services h4,
+    .about-page-caption h4,
+    .our-process-caption h4,
+    .team-members-caption h4,
+    .contact-us-caption h4,
+    .loan-details h4 {
+        font-size: 14px;
+    }
+
+    .services h2,
+    .about-page-caption h2,
+    .our-process-caption h3,
+    .team-members-caption h3,
+    #accordion h3,
+    .contact-us-caption h3,
+    .services-navigation h3,
+    .loan-details h3 {
+        font-size: 32px;
+    }
+
+    .services-info-details h3 {
+        font-size: 24px;
+    }
+
+    .services-info-details p {
+        font-size: 14px;
+    }
+
+    .loan-details p {
+        font-size: 14px;
+    }
+
+    .loan-details li,
+    .imp-notes li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .imp-notes h4 {
+        font-size: 24px;
+    }
+
+    .imp-notes h5 {
+        font-size: 18px;
+    }
+
+    .info h5 {
+        font-size: 20px;
+    }
+
+    .info p,
+    .info p a {
+        font-size: 14px;
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar-brand {
+        margin-right: 0rem;
+        font-size: 1rem;
+    }
+
+    .img-logo {
+        width: 70%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 16px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 34px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    .btn-our-service,
+    .btn-contact-us,
+    .btn-about,
+    .btn-popup,
+    .btn-read-more,
+    .btn-service {
+        font-size: 14px;
+    }
+
+    .carousel-caption {
+        left: 0%;
+        bottom: 10%;
+    }
+
+    .about-caption h2 {
+        font-size: 30px;
+    }
+
+    .about-caption p,
+    .about-page-caption p {
+        font-size: 12px;
+    }
+
+    .services h4,
+    .about-page-caption h4,
+    .our-process-caption h4,
+    .team-members-caption h4,
+    .contact-us-caption h4,
+    .loan-details h4 {
+        font-size: 12px;
+    }
+
+    .services h2,
+    .about-page-caption h2,
+    .our-process-caption h3,
+    .team-members-caption h3,
+    #accordion h3,
+    .contact-us-caption h3,
+    .services-navigation h3,
+    .loan-details h3 {
+        font-size: 28px;
+    }
+
+    .services-info-details h3 {
+        font-size: 22px;
+    }
+
+    .services-info-details p {
+        font-size: 12px;
+    }
+
+    .loan-details p {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .loan-details li,
+    .imp-notes li {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .imp-notes h4 {
+        font-size: 22px;
+    }
+
+    .imp-notes h5 {
+        font-size: 16px;
+    }
+
+    .contact-lightbox .quick-connect h3 {
+        font-size: 18px;
+    }
+
+    .info h5 {
+        font-size: 18px;
+    }
+
+    .info p,
+    .info p a {
+        font-size: 12px;
+        margin-bottom: 4%;
+    }
+}

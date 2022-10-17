@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/bootstrap.min.css">
     <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="assets/responsive.css">
     <link rel="stylesheet" href="font/stylesheet.css">
     <link rel="icon" href="images/homepage/favicon.png">
     <style>
@@ -62,8 +63,7 @@
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"><img src="images/menu.png" class="menu-icon"
-                                        alt="icon"></span>
+                                <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
@@ -87,9 +87,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item background-image-1 active">
-                    <img src="images/services/services-bg.jpg" alt="image">
+                    <img src="images/services/services-bg.jpg" class="w-100 d-none d-sm-block" alt="image">
+                    <img src="images/services/services-mob.png" class="w-100 d-block d-sm-none" alt="image">
                     <div class="container">
                         <div class="carousel-caption d-none d-md-block" style="text-align: center;">
+                            <h3>Our Services</h3>
+                        </div>
+                        <div class="carousel-caption d-block d-md-none" style="text-align: center;">
                             <h3>Our Services</h3>
                         </div>
                     </div>

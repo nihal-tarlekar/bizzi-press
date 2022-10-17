@@ -13,6 +13,10 @@ button:focus {
     outline: 0px auto -webkit-focus-ring-color;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .carousel-caption {
     position: absolute;
     text-align: left;
